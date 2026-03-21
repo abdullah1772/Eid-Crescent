@@ -40,7 +40,8 @@ eid-crescent/
 ├── index.html
 ├── script.js
 └── style.css
-```text
+
+```
 
 🎮 How to Play
 Wait for the universe to finish loading.
