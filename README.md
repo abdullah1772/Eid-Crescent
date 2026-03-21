@@ -1,7 +1,8 @@
 # Find the Eid Moon 🌙
 
-"Find the Eid Moon" is an interactive, browser-based mini-game built using HTML5 Canvas, CSS3, and JavaScript. Celebrate the end of Ramadan by stepping into the shoes of an astronomer! Use your mouse as a telescope to scan the vast, randomized night sky and locate the hidden crescent moon to win. 
+**[🕹️ Play the Game Live Here!](https://abdullah1772.github.io/Eid-Crescent/)**
 
+"Find the Eid Moon" is an interactive, browser-based mini-game built using HTML5 Canvas, CSS3, and JavaScript. Celebrate the end of Ramadan by stepping into the shoes of an astronomer! Use your mouse as a telescope to scan the vast, randomized night sky and locate the hidden crescent moon to win.
 ## ✨ Features
 
 * **Interactive Telescope Effect:** The night sky is hidden in darkness. Your cursor acts as a telescope lens, revealing a small radius of the vibrant universe beneath it.
@@ -42,42 +43,32 @@ eid-crescent/
 └── style.css
 
 ```
+## 🎮 How to Play
 
-🎮 How to Play
-Wait for the universe to finish loading.
+1. Wait for the universe to finish loading.
+2. Move your mouse (or drag your finger on touch devices) across the dark screen to reveal the space beneath.
+3. Look out for the golden crescent moon!
+4. Once your telescope lens crosses over the moon, you win the game.
 
-Move your mouse (or drag your finger on touch devices) across the dark screen to reveal the space beneath.
+## 🛠️ Installation & Setup
 
-Look out for the golden crescent moon!
-
-Once your telescope lens crosses over the moon, you win the game.
-
-🛠️ Installation & Setup
-Because this game relies on the HTML5 Canvas API to load image assets, running the index.html file directly from your file system (using the file:// protocol) might cause CORS (Cross-Origin Resource Sharing) security errors in some modern browsers.
+Because this game relies on the HTML5 Canvas API to load image assets, running the `index.html` file directly from your file system (using the `file://` protocol) might cause CORS (Cross-Origin Resource Sharing) security errors in some modern browsers.
 
 To run this project locally:
 
-Option 1: Using VS Code Live Server (Recommended)
+**Option 1: Using VS Code Live Server (Recommended)**
+1. Open the project folder in Visual Studio Code.
+2. Install the "Live Server" extension.
+3. Right-click on `index.html` and select **"Open with Live Server"**.
 
-Open the project folder in Visual Studio Code.
+**Option 2: Using Python**
+1. Open your terminal or command prompt.
+2. Navigate to the project directory.
+3. Run a local HTTP server:
+   * Python 3.x: `python -m http.server 8000`
+   * Python 2.x: `python -m SimpleHTTPServer 8000`
+4. Open your browser and go to `http://localhost:8000`.
 
-Install the "Live Server" extension.
+## 🤝 Contributing
 
-Right-click on index.html and select "Open with Live Server".
-
-Option 2: Using Python
-
-Open your terminal or command prompt.
-
-Navigate to the project directory.
-
-Run a local HTTP server:
-
-Python 3.x: python -m http.server 8000
-
-Python 2.x: python -m SimpleHTTPServer 8000
-
-Open your browser and go to http://localhost:8000.
-
-🤝 Contributing
 Feel free to fork this project, submit pull requests, or send suggestions to make the universe even more exciting (e.g., adding shooting stars, sound effects, or varying telescope sizes!).
